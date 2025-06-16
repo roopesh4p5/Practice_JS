@@ -9,3 +9,11 @@ function solution() {
 
 // Test your solution
 console.log(solution());
+
+================================================================================
+// NEW SOLUTION APPROACH - Added on: 16/06/2025, 18:48:02
+revers=(val)=>{
+return val.split("").reverse().join("");
+}
+
+console.log(revers("anand"))
